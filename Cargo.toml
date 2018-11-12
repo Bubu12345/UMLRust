@@ -1,0 +1,11 @@
+[package]
+name = "Rust"
+version = "0.1.0"
+authors = ["alex"]
+edition = "2018"
+
+[dependencies]
+rocket = "0.4.0-rc.1"
+winit = "0.18"
+conrod = { version = "0.55.0", features = ["glium", "winit"] }
+find_folder="0.3.0"
